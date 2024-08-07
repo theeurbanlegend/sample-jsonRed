@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "Bet": "CIP100:Bet",
+        "FavouriteFood": "CIP100:FavouriteFood",
+        "Name": "CIP100:Name",
+        "Residence": "CIP100:Residence",
+        "Secret": "CIP100:Secret",
+        "newValue": "CIP100:newValue"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a40101032720062158209d8a9c42fbc2dad617e4b1127aaa37f09ea00c0cf6f8cc1f9ffdab874fc9a9ba"
+        },
+        "signature": {
+          "@value": "845846a201276761646472657373583900bf812fe003fe998cad3b3f57cb94be2b36325d3a7ab3df7566ad423761bea9934052ad712afa4ac64cc04dd2e77d92634ee6a30b137e2b03a166686173686564f4584456657269667920445265702064726570313535686c76396370737139653366617830797035307a64703371347077327679337074333736786670757175786e367a387376584019dcda46583e6ac0ede9b08f2cc1d766a405a245ab8a8e23f8d537f09c3fe0ba90e143adb3f4c976edf8cf7d89e20e8528e4123a3c97075b6c52592ee111ff0e"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "body": {
+    "Bet": {
+      "@value": "you"
+    },
+    "FavouriteFood": {
+      "@value": "Cat food"
+    },
+    "Name": {
+      "@value": "Bewton"
+    },
+    "Residence": {
+      "@value": "Nyeri"
+    },
+    "Secret": {
+      "@value": "My credit card number is ..."
+    },
+    "newValue": {
+      "@value": "new"
+    }
+  },
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  }
+}
