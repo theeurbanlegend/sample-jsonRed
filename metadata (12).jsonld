@@ -7,12 +7,6 @@
     "body": {
       "@id": "CIPQQQ:body",
       "@context": {
-        "Bet": "CIPQQQ:Bet",
-        "FavouriteFood": "CIPQQQ:FavouriteFood",
-        "Name": "CIPQQQ:Name",
-        "Residence": "CIPQQQ:Residence",
-        "Secret": "CIPQQQ:Secret",
-        "newValue": "CIPQQQ:newValue",
         "dRepName": "CIPQQQ:dRepName",
         "email": "CIPQQQ:email",
         "bio": "CIPQQQ:bio",
@@ -70,21 +64,6 @@
     "@value": "blake2b-256"
   },
   "body": {
-    "Bet": {
-      "@value": "you"
-    },
-    "FavouriteFood": {
-      "@value": "Cat food"
-    },
-    "Name": {
-      "@value": "Bewton"
-    },
-    "Residence": {
-      "@value": "Nyeri"
-    },
-    "Secret": {
-      "@value": "My credit card number is ..."
-    },
     "bio": {
       "@value": "None"
     },
@@ -93,9 +72,6 @@
     },
     "email": {
       "@value": "mbuto152@gmail.com"
-    },
-    "newValue": {
-      "@value": "new"
     },
     "references": [
       {
