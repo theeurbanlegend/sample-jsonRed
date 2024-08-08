@@ -98,20 +98,15 @@
     },
     "references": [
       {
-        "@value": "[{\"@type\":\"Other\",\"label\":{\"@value\":\"Label\"},\"uri\":{\"@value\":\"https://cute-cultivar.info\"}}]"
+        "@type": "Other",
+        "label": {
+          "@value": "Label"
+        },
+        "uri": {
+          "@value": "https://cute-cultivar.info"
+        }
       }
     ]
   },
-  "hashAlgorithm": "blake2b-256",
-  "references": [
-    {
-      "@type": "Other",
-      "label": {
-        "@value": "Label"
-      },
-      "uri": {
-        "@value": "https://cute-cultivar.info"
-      }
-    }
-  ]
+  "hashAlgorithm": "blake2b-256"
 }
