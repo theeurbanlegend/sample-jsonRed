@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIPQQQ": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-QQQ/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIPQQQ:body",
+      "@context": {
+        "dRepName": "CIPQQQ:dRepName",
+        "bio": "CIPQQQ:bio",
+        "email": "CIPQQQ:email",
+        "references": {
+          "@id": "CIPQQQ:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIPQQQ:referenceHash",
+              "@context": {
+                "hashDigest": "CIPQQQ:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a40101032720062158209d8a9c42fbc2dad617e4b1127aaa37f09ea00c0cf6f8cc1f9ffdab874fc9a9ba"
+        },
+        "signature": {
+          "@value": "84582aa201276761646472657373581d60bf812fe003fe998cad3b3f57cb94be2b36325d3a7ab3df7566ad4237a166686173686564f4584456657269667920445265702064726570313535686c76396370737139653366617830797035307a64703371347077327679337074333736786670757175786e367a3873765840125fb0166b746d28ebee9d7e0f4d287cca7a90f967bea0b0b3025f00731fd8c47045041eff4f85965af7abcf5d644cfc139f72ff0071c1ca3d21239ed4fd8404"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "bio": {
+      "@value": "I am an aspiring drep"
+    },
+    "dRepName": {
+      "@value": "Bewton Maina"
+    },
+    "email": {
+      "@value": "mbuto152@gmail.com"
+    },
+    "references": []
+  }
+}
