@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "givenName": "CIP119:givenName",
+        "objectives": "CIP119:objectives",
+        "paymentAddress": "CIP119:paymentAddress",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a4010103272006215820021c93ffb340fe80cc46884e460cd2990ef01404f55efb37f02e9055539a4211"
+        },
+        "signature": {
+          "@value": "845846a2012767616464726573735839001a37e72734bd987d89ed48bebcb4fdbb47ee5f4a38c8832d279168ddc1619aae505bb479b001e1b7ecfb012f4b83bc53734bdea3f6a0cfdea166686173686564f4584456657269667920445265702064726570316c6b343774366e67673736683277336a6b6e7a386b6b61757a6e387668363976777165763465746779323273796c6632663665584072449bc18f4f859fba6c0c71dd5113818c9ebb6ef9302f1797fd20c02bc3a641cbb254102974612e56fc56059ed0672269d510eb268f51aa50958092b3e4a007"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "bio": {
+      "@value": "I am a drep in preview mode"
+    },
+    "email": {
+      "@value": "mbuto152@gmail.com"
+    },
+    "givenName": {
+      "@value": "Bewton Maina"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/QmNqAYEPcKSoc6NYgVs2T3VQ4H7YiNZnX59CcGagnDq1Ht",
+      "sha256": "aa18326daba9fc07783c78e55b5591edd82bafe7d02a09b7f20b1b697da32020"
+    },
+    "objectives": {
+      "@value": "Empty"
+    },
+    "paymentAddress": {
+      "@value": "addr_test1qqdr0ee8xj7eslvfa4yta095lka50mjlfguv3qedy7gk3hwpvxd2u5zmk3umqq0pklk0kqf0fwpmc5mnf0028a4qel0q454edx"
+    },
+    "references": []
+  }
+}
