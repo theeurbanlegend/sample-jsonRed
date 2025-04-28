@@ -7,13 +7,13 @@
     "body": {
       "@id": "CIP119:body",
       "@context": {
+        "givenName": "CIP119:givenName",
         "bio": "CIP119:bio",
         "email": "CIP119:email",
-        "givenName": "CIP119:givenName",
-        "motivations": "CIP119:motivations",
-        "objectives": "CIP119:objectives",
         "paymentAddress": "CIP119:paymentAddress",
         "qualifications": "CIP119:qualifications",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
         "image": {
           "@id": "CIP119:image",
           "@context": {
@@ -75,26 +75,25 @@
   },
   "body": {
     "bio": {
-      "@value": "Test bio"
+      "@value": "dfsxs"
     },
     "email": {
-      "@value": "testemail@gmail.com"
+      "@value": "dsfsxf"
     },
     "givenName": {
-      "@value": "Bewton"
+      "@value": "aesdfsx"
     },
     "motivations": {
-      "@value": "Empty"
+      "@value": "hbdfhbdc"
     },
     "objectives": {
-      "@value": "Empty"
+      "@value": "dfgdfd"
     },
     "paymentAddress": {
-      "@value": "Test payment address"
+      "@value": "dfddg"
     },
     "qualifications": {
-      "@value": "Empty"
-    },
-    "references": []
+      "@value": "fhfhnd"
+    }
   }
 }
