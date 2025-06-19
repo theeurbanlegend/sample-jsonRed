@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Emmanuel Musau",
+      "witness": {
+        "witnessAlgorithm": "CIP-0008",
+        "publicKey": "acf7a90106563876f5e40e951f399d943fefc99d43ba2543c1596a4babab5d60",
+        "signature": "845829a201276761646472657373581cecdb7a5a456419f3bb665fc216cc5248cf846def18f26d6d0b2c35a9a166686173686564f45820b36f37bfc565a26ac8f4b2902e56d12e0bf47562840a1305570f2440c729607f584019dfc8f587834d9dd904d199ffcaa32dbd866ffcda2e1dbcbee0cd4d9761980095b417733314d33c228f62aef18d90615215c9c097f06c7c6d25dc2e8d95d208"
+      }
+    }
+  ],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "abstract": "Message sign test",
+    "rationale": "This is a test message to demonstrate the structure of a JSON-LD document for a Cardano Improvement Proposal (CIP).",
+    "references": [
+      {
+        "label": "Treasury Management Smart Contracts",
+        "@type": "Other",
+        "uri": "https://github.com/SundaeSwap-finance/treasury-contracts"
+      }
+    ],
+    "title": "Message Signed By Emmanuel Mutisya"
+  }
+}
